@@ -1,0 +1,54 @@
+.header {
+    height: 100px;
+    background-color: lightblue;
+    margin-bottom: 30px;
+}
+
+.logo {
+    height: 100%;
+}
+
+.photo {
+    float: left;
+    height: 500px;
+    background-color: #4885de;
+    width: 30%;
+    background-image: url("../image/photo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.information {
+    float: left;
+    height: 500px;
+    background-color: lightblue;
+    width: 70%;
+}
+
+.fio {
+    float: left;
+    height: 100px;
+    background-color: #ececec;
+    width: 100%;
+    text-align: center;
+    color: #4a5161;
+}
+
+.about {
+    float: left;
+    height: 400px;
+    background-color: #5ba2bf;
+    width: 60%;
+    line-height:30px;
+    color: white;
+}
+
+.text-about, .text-contact {
+    margin: 20px;
+}
+
+.contact {
+    float: left;
+    height: 400px;
+    width: 40%;
+}
