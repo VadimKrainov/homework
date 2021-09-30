@@ -8,6 +8,15 @@
     height: 100%;
 }
 
+.menu {
+    display: inline-block;
+    position: relative;
+    height: 100px;
+    left: 1000px;
+    bottom: 50px;
+}
+
+
 .photo {
     float: left;
     height: 500px;

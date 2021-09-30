@@ -1,0 +1,130 @@
+.table, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table {
+    margin: auto;
+}
+
+.al{
+    background-color: yellow;
+    width: 65px;
+}
+
+.si {
+    background-color: yellow;
+    width: 55px;
+}
+
+.p {
+    background-color: yellow;
+    width: 50px;
+}
+
+.s {
+    background-color: yellow;
+    width: 50px;
+}
+
+.sc, .ti, .v, .cr {
+    background-color: blue;
+    width: 50px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    float: left;
+}
+
+.number{
+    margin-left: 34px;
+    font-size: 10px;
+    display: block;
+    float: right;
+}
+
+.name-2 {
+    font-size: 14px;
+    display: block;
+    float: left;
+}
+
+.number-2{
+    margin-left: -32px;
+    margin-top: -10px;
+    font-size: 10px;
+    display: block;
+    float: right;
+}
+
+.number-si{
+    margin-left: 25px;
+    font-size: 10px;
+    display: block;
+    float: right;
+}
+
+.number-p{
+    margin-left: 25px;
+    font-size: 10px;
+    display: block;
+    float: right;
+}
+
+.number-s{
+    margin-left: 28px;
+    font-size: 10px;
+    display: block;
+    float: right;
+}
+
+.number-2-s{
+    margin-top: -25px;
+    font-size: 10px;
+    display: block;
+    float: right;
+}
+
+.name-blue {
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    float: right;
+}
+
+.number-blue{
+    margin-left: -45px;
+    font-size: 10px;
+    display: block;
+    float: left;
+}
+
+.name-2-blue {
+    font-size: 14px;
+    display: block;
+    float: right;
+}
+
+.number-2-blue{
+    margin-top: -27px;
+    font-size: 10px;
+    display: block;
+    float: left;
+}
+
+.number-blue-ti, .number-blue-v {
+    margin-left: -36px;
+    font-size: 10px;
+    display: block;
+    float: left;
+}
+
+.number-blue-cr {
+    margin-left: -27px;
+    font-size: 10px;
+    display: block;
+    float: left;
+}
