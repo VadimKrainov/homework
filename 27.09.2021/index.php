@@ -1,7 +1,19 @@
+<?
+$night = date("H:i:s");
+echo "$night";
+if($night >= "08:00" and $night <= "23:59")
+{
+    echo "<link rel='stylesheet' href='css/style.css'>";
+}
+else{
+    echo "<link rel='stylesheet' href='css/style_night.css'>";
+}
+?>
 <!doctype html>
 <html lang="ru">
 <head>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="<?echo $night;?>">
+<!--    <link rel="stylesheet" href="css/style_night.css">-->
     <meta charset="UTF-8">
     <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
           name="viewport">
