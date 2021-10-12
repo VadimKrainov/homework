@@ -9,6 +9,11 @@
     <title>Document</title>
 </head>
 <body>
+
+<?
+include ("ini/header.php");
+?>
+
 <table class="table">
     <tr>
         <td rowspan="2" class="al">

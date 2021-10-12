@@ -9,11 +9,11 @@ else{
     echo "<link rel='stylesheet' href='css/style_night.css'>";
 }
 ?>
+
 <!doctype html>
 <html lang="ru">
 <head>
     <link rel="stylesheet" href="<?echo $night;?>">
-<!--    <link rel="stylesheet" href="css/style_night.css">-->
     <meta charset="UTF-8">
     <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
           name="viewport">
@@ -22,19 +22,9 @@ else{
 </head>
 <body>
 
-<header class="header">
-    <div class="container">
-        <div class="logo">
-            <img src="image/logo.png" alt="" class="image">
-        </div>
-        <div class="menu">
-            <ul>
-                <li><a href="table.html" class="a-first" target="_blank">Таблица</a></li>
-                <li><a href="#">Авторизация</a></li>
-            </ul>
-        </div>
-    </div>
-</header>
+<?
+include ("ini/header.php");
+?>
 
 <main class="main">
     <div class="flex-container-2">
