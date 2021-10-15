@@ -180,3 +180,9 @@ a:hover {
         height: 300px;
     }
 }
+
+.footer {
+    background-color: rebeccapurple;
+    padding: 50px 0;
+    color: white;
+}
