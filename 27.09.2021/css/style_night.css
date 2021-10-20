@@ -32,6 +32,10 @@ li {
     margin-right: 40px;
 }
 
+.a-second {
+    margin-right: 40px;
+}
+
 a:hover {
     text-decoration: none;
     color: white;
@@ -181,8 +185,24 @@ a:hover {
     }
 }
 
+
 .footer {
     background-color: rebeccapurple;
     padding: 50px 0;
     color: white;
+}
+
+.container-authorization{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.textarea {
+    margin-top: 20px;
+    display: block;
+}
+
+.registration:hover {
+    text-decoration: none;
+    color: -webkit-link;
 }

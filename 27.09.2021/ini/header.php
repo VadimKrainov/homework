@@ -12,7 +12,8 @@ echo "<link rel='stylesheet' href='../css/style_menu.css'>";
         <div class="menu">
             <ul>
                 <li><a href="table.php" class="a-first">Таблица</a></li>
-                <li><a href="array.php">Массивы</a></li>
+                <li><a href="array.php"class="a-second">Массивы</a></li>
+                <li><a href="authorization.php">Авторизация</a></li>
             </ul>
         </div>
     </div>

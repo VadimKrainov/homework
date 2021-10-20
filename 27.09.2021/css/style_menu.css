@@ -28,6 +28,10 @@ li {
     margin-right: 40px;
 }
 
+.a-second {
+    margin-right: 40px;
+}
+
 a:hover {
     text-decoration: none;
     color: white;
