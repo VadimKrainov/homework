@@ -2,6 +2,45 @@ body {
     background-color: #ececec;
 }
 
+.header {
+    background-color: lightblue;
+    margin-bottom: 50px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.image {
+    height: 100px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+}
+
+.a-first {
+    margin-right: 40px;
+}
+
+.a-second {
+    margin-right: 40px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
 .flex-container-2 {
     max-width: 1200px;
     margin: 0 auto;

@@ -1,7 +1,7 @@
 <?
 function time_style() {
     $night = date("H:i:s");
-    if ($night >= "08:00" and $night <= "23:59") {
+    if ($night >= "08:00" and $night <= "23:00") {
         echo "<link rel='stylesheet' href='css/style.css'>";
     } else {
         echo "<link rel='stylesheet' href='css/style_night.css'>";

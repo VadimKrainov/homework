@@ -1,3 +1,7 @@
+<?
+include ("ini/header.php");
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -9,11 +13,6 @@
     <title>Авторизация</title>
 </head>
 <body>
-
-<?
-include ("ini/header.php");
-?>
-
 
 <div class="container-authorization">
 
