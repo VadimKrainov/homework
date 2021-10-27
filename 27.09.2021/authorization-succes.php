@@ -14,29 +14,40 @@
 include ("ini/header.php");
 ?>
 
+
 <div class="container-authorization">
 
-    <?/*
-    echo 'Привет, дорогой' . $_GET['login'];
-    */?>
-
     <?
-    if (isset($_POST['comment'])) {
-        $comment = $_POST['comment'];
-        $to = $_GET['login'];
-        if (mail("$to", 'Сообщение', "$comment")) {
-            echo 'Письмо успешно отправлено';
+
+    // логин для входа vadim
+    // пароль для входа 12345
+
+    $db_connect = mysqli_connect('localhost', 'vadim', '12345', 'authorization');
+
+    $login = md5($_POST['login']);
+    $password = md5($_POST['password']);
+
+
+        if ($login == '' || $password == '') {
+            echo 'Заполните оба поля';
+
+        } else {
+            echo 'Вы заполнили оба поля' . '<br>';
+
+        }
+
+    if (isset($_POST['submit'])) {
+        $select = mysqli_query($db_connect,"SELECT * FROM users WHERE login = '$login' AND password = '$password'");
+        $arr_select = mysqli_fetch_array($select);
+
+        if($password == $arr_select['password']){
+            echo 'Вы успешно авторизовались!';
+        }
+        else {
+            echo 'Авторизация прошла неуспешна, перепроверьте введенные данные';
         }
     }
     ?>
-    <form method="post">
-        <p>
-        Введите свой комментарий<textarea class="textarea" rows="10" cols="45" name="comment"></textarea>
-        </p>
-        <p>
-            <button type="submit">Отправить</button>
-        </p>
-    </form>
 
 </div>
 
